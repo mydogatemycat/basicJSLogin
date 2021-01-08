@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basicJSLogin</title>
+</head>
+<body>
+    <text>The default email is someone@company.com and the password is password. You can change this in the script.js file.</text>
+    <br><br><br>
+    <form>
+        <input type="email" id="email" class="email" name="email" placeholder="Email Address">
+        <br><br>
+        <input type="password" id="password" class="password" name="password" placeholder="Password">
+        <br><br>
+        <text id="showpasswordtext">Show Password: <input type="checkbox" id="checkbox" class="checkbox" name="checkbox" onclick="visiblePassword()">
+        <br><br>
+        <input type="submit" id="submit" class="submit" name="submit" value="Login" onclick="return submitLogin()">
+    </form>
+    <br><br>
+    <text id="empty"></text>
+<script src="script.js"></script>
+</body>
+</html>
